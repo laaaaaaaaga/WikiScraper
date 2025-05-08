@@ -1,1 +1,1 @@
-test
+this project is a simple bot created to gather ~1gb data per language for multiple languages
