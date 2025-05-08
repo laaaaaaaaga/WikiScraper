@@ -8,7 +8,7 @@ def create_folder(path):
 
 def get_dir_size(path):
     total_size = 0;
-    for dirpath, dirnames, filenames in os.walk(path):
+    for filenames in os.walk(path):
         for f in filenames:
             total_size += os.path.getsize(os.path.join(dirpath, f))
             if not os.path.islink(os.path.join(dirpath, f)):
