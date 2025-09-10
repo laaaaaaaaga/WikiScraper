@@ -1,11 +1,10 @@
 import wikipediaapi
 import os
+import requests
 from urllib.parse import urljoin
-MAX_FOLDER_SIZE = 1024*1024*1024
+MAX_FOLDER_SIZE = 200*1024*1024 #200mb
 language_codes = ["en", "es", "fr", "de", "zh", "pt", "ru", "ja", "ko"]
-more_language_codes = [
-    "af", "als", "am", "an", "ar", "arc", "ary", "as", "ast", "atj",
-    "av", "ay", "az", "ba", "bar", "bat-smg", "bcl", "be", "be-tarask",
+more_language_codes = ["af", "als", "am", "an", "ar", "arc", "ary", "as", "ast", "atj", "av", "ay", "az", "ba", "bar", "bat-smg", "bcl", "be", "be-tarask",
     "bg", "bh", "bi", "bjn", "bm", "bn", "bo", "br", "bs", "bpy",
     "ca", "cbk-zam", "ce", "ceb", "ch", "chb", "chr", "chy", "co",
     "crh", "cs", "csb", "cu", "cv", "cy", "da", "de", "diq", "dsb",
@@ -53,6 +52,44 @@ def init_wiki(lang):
     extract_format=wikipediaapi.ExtractFormat.WIKI
     )
 
+def get_random_page_title(wiki):
+    session = requests.Session()
+    response = session.get(f'https://{wiki.language}.wikipedia.org/w/api.php?action=query&list=random&rnnamespace=0&format=json')
+    data = response.json()
+    return data['query']['random'][0]['title']
+
+def save_page_content(wiki, page_title, directory):
+    page = wiki.page(page_title)
+    if not page.exists():
+        return False
+
+    file_path = os.path.join(directory, f"{page_title.replace(' ', '_')}.txt")
+
+    with open(file_path, 'w', encoding='utf-8') as f:
+        f.write(page.text)
+
+    return True
+
+
+def download_pages(lang):
+    wiki = init_wiki(lang)
+    dir = f"{lang}_data"
+    create_folder(dir)
+    target_size = MAX_FOLDER_SIZE
+
+    while get_dir_size(dir) < target_size:
+        page_title = get_random_page_title(wiki)
+        if save_page_content(wiki, page_title, dir):
+            print(f"Saved: {page_title}")
+        else:
+            print(f"Page does not exist: {page_title}")
+
+
+def main():
+    for l in language_codes:
+        download_pages(l)
+if __name__ == "__main__":
+    main()
 
 '''
 def download_page(title, lang, dir):
