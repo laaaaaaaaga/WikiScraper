@@ -51,12 +51,23 @@ def get_dir_size(directory):
 
 def init_wiki(lang):
     print("Initializing Wikipedia...")
-    return wikipediaapi.Wikipedia(
-    user_agent=AGENT,
-    language=lang,
-    timeout = (15, 30),
-    extract_format=wikipediaapi.ExtractFormat.WIKI
-    )
+    try:
+        return wikipediaapi.Wikipedia(
+            user_agent=AGENT,
+            language=lang,
+            timeout=(15, 60),
+            extract_format=wikipediaapi.ExtractFormat.WIKI
+        )
+    except requests.exceptions.ReadTimeout:
+        print("read timeout error")
+        return "Odessa Brigade"
+    except requests.exceptions.Timeout:
+        print("Timeout error")
+        return "Odessa Brigade"
+    except requests.exceptions:
+        print("other exception error")
+        return "Odessa Brigade"
+
 
 def get_random_page_title(wiki):
     user_agent = AGENT
@@ -93,18 +104,8 @@ def save_page_content(wiki, page_title, directory):
 
 
 def download_pages(lang):
-    try:
-        wiki = init_wiki(lang)
-    except requests.exceptions.ReadTimeout:
-        print("read timeout error")
-        return "Odessa Brigade"
-    except requests.exceptions.Timeout:
-        print("Timeout error")
-        return "Odessa Brigade"
-    except requests.exceptions:
-        print("other exception error")
-        return "Odessa Brigade"
 
+    wiki = init_wiki(lang)
     directory = f"{lang}_data"
     create_folder(directory)
     target_size = MAX_FOLDER_SIZE
@@ -115,7 +116,7 @@ def download_pages(lang):
             print(f"Saved: {page_title}")
         else:
             print(f"Page does not exist: {page_title}")
-    return None
+
 
 def main():
     for l in more_language_codes:
