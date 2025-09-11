@@ -55,8 +55,6 @@ def init_wiki(lang):
 def get_random_page_title(wiki):
     user_agent = "WikiScraperBot/0.1 (marcingrelak6@gmail.com;) wikipediaapi/0.8.1"
     response = requests.get(f'https://{wiki.language}.wikipedia.org/w/api.php?action=query&list=random&rnnamespace=0&format=json', headers={'User-Agent': user_agent})
-#    session = requests.Session()
-#    response = session.get(f'https://{wiki.language}.wikipedia.org/w/api.php?action=query&list=random&rnnamespace=0&format=json')
     print(response.text)
     data = response.json()
     return data['query']['random'][0]['title']
@@ -93,17 +91,3 @@ def main():
         download_pages(l)
 if __name__ == "__main__":
     main()
-
-'''
-def download_page(title, lang, dir):
-    wiki = init_wiki(lang)
-    
-    page = wiki.page(title)
-    if page.exists():
-        path = os.path.join(dir, f"{page.title}_{lang}.txt")
-        with open(path, "wb", encoding='utf-8') as file:
-            file.write(page.text.encode('utf-8'))
-        print("downloaded" f"{page.title}_{lang}")
-    else:
-        print("no page found")
-#reminder that 10 gigabytes = 10*1024*1024*1024'''
