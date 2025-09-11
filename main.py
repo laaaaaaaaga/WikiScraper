@@ -4,7 +4,8 @@ import requests
 
 MAX_FOLDER_SIZE = 3*1024*1024 # in mb
 language_codes = ["en", "es", "fr", "de", "zh", "pt", "ru", "ja", "ko"]
-more_language_codes = ["af", "als", "am", "an", "ar", "arc", "ary", "as", "ast", "atj", "av", "ay", "az", "ba", "bar", "bat-smg", "bcl", "be", "be-tarask",
+more_language_codes = ["af", "als", "am", "an", "ar", "arc", "ary", "as",
+    "ast", "atj", "av", "ay", "az", "ba", "bar", "bat-smg", "bcl", "be", "be-tarask",
     "bg", "bh", "bi", "bjn", "bm", "bn", "bo", "br", "bs", "bpy",
     "ca", "cbk-zam", "ce", "ceb", "ch", "chb", "chr", "chy", "co",
     "crh", "cs", "csb", "cu", "cv", "cy", "da", "de", "diq", "dsb",
