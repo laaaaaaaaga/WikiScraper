@@ -2,7 +2,7 @@ import wikipediaapi
 import os
 import requests
 from urllib.parse import urljoin
-MAX_FOLDER_SIZE = 200*1024*1024 #200mb
+MAX_FOLDER_SIZE = 10*1024*1024 #200mb
 language_codes = ["en", "es", "fr", "de", "zh", "pt", "ru", "ja", "ko"]
 more_language_codes = ["af", "als", "am", "an", "ar", "arc", "ary", "as", "ast", "atj", "av", "ay", "az", "ba", "bar", "bat-smg", "bcl", "be", "be-tarask",
     "bg", "bh", "bi", "bjn", "bm", "bn", "bo", "br", "bs", "bpy",
