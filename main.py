@@ -3,7 +3,7 @@ import os
 import requests
 
 AGENT = "WikiScraperBot/0.9 (marcingrelak6@gmail.com;) wikipediaapi/0.8.1"
-MAX_FOLDER_SIZE = 8*1024*1024*3 # in MB
+MAX_FOLDER_SIZE = 8*1024*1024*4 # in MB
 language_codes = ["en", "es", "fr", "de", "zh", "pt", "ru", "ja", "ko"]
 more_language_codes = ["af", "als", "am", "an", "ar", "arc", "ary", "as",
     "ast", "atj", "av", "ay", "az", "ba", "bar", "bat-smg", "bcl", "be", "be-tarask",
