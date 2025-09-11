@@ -53,8 +53,11 @@ def init_wiki(lang):
     )
 
 def get_random_page_title(wiki):
-    session = requests.Session()
-    response = session.get(f'https://{wiki.language}.wikipedia.org/w/api.php?action=query&list=random&rnnamespace=0&format=json')
+    user_agent = "WikiScraperBot/0.1 (marcingrelak6@gmail.com;) wikipediaapi/0.8.1"
+    response = requests.get(f'https://{wiki.language}.wikipedia.org/w/api.php?action=query&list=random&rnnamespace=0&format=json', headers={'User-Agent': user_agent})
+#    session = requests.Session()
+#    response = session.get(f'https://{wiki.language}.wikipedia.org/w/api.php?action=query&list=random&rnnamespace=0&format=json')
+    print(response.text)
     data = response.json()
     return data['query']['random'][0]['title']
 

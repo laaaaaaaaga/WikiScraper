@@ -1,0 +1,831 @@
+This is a list of the bird species recorded in Bhutan. The avifauna of Bhutan include a total of 760 species, of which one has been introduced by humans.
+This list's taxonomic treatment (designation and sequence of orders, families and species) and nomenclature (common and scientific names) follow the conventions of The Clements Checklist of Birds of the World, 2022 edition. The family accounts at the beginning of each heading reflect this taxonomy, as do the species counts found in each family account. Introduced and accidental species are included in the total counts for Bhutan.
+The following tags have been used to highlight several categories. The commonly occurring native species do not fall into any of these categories.
+
+(A) Accidental - a species that rarely or accidentally occurs in Bhutan
+(I) Introduced - a species introduced to Bhutan as a consequence, direct or indirect, of human actions
+
+Ducks, geese, and waterfowl
+Order: Anseriformes   Family: Anatidae
+Anatidae includes the ducks and most duck-like waterfowl, such as geese and swans. These birds are adapted to an aquatic existence with webbed feet, flattened bills, and feathers that are excellent at shedding water due to an oily coating.
+
+Pheasants, grouse, and allies
+Order: Galliformes   Family: Phasianidae
+The Phasianidae are a family of terrestrial birds which consists of quails, partridges, snowcocks, francolins, spurfowls, tragopans, monals, pheasants, peafowls and jungle fowls. In general, they are plump (although they vary in size) and have broad, relatively short wings.
+
+Grebes
+Order: Podicipediformes   Family: Podicipedidae
+Grebes are small to medium-large freshwater diving birds. They have lobed toes and are excellent swimmers and divers. However, they have their feet placed far back on the body, making them quite ungainly on land.
+
+Little grebe, Tachybaptus ruficollis (A)
+Red-necked grebe, Podiceps grisegena (A)
+Great crested grebe, Podiceps cristatus
+Eared grebe, Podiceps nigricollis (A)
+
+Pigeons and doves
+Order: Columbiformes   Family: Columbidae
+Pigeons and doves are stout-bodied birds with short necks and short slender bills with a fleshy cere.
+
+Cuckoos
+Order: Cuculiformes   Family: Cuculidae
+The family Cuculidae includes cuckoos, roadrunners and anis. These birds are of variable size with slender bodies, long tails and strong legs. The Old World cuckoos are brood parasites.
+
+Frogmouths
+Order: Caprimulgiformes   Family: Podargidae
+The frogmouths are a group of nocturnal birds related to the nightjars. They are named for their large flattened hooked bill and huge frog-like gape, which they use to take insects.
+
+Hodgson's frogmouth, Batrachostomus hodgsoni
+
+Nightjars and allies
+Order: Caprimulgiformes   Family: Caprimulgidae
+Nightjars are medium-sized nocturnal birds that usually nest on the ground. They have long wings, short legs and very short bills. Most have small feet, of little use for walking, and long pointed wings. Their soft plumage is camouflaged to resemble bark or leaves.
+
+Gray nightjar, Caprimulgus indicus
+Large-tailed nightjar, Caprimulgus macrurus
+Savanna nightjar, Caprimulgus affinis
+
+Swifts
+Order: Caprimulgiformes   Family: Apodidae
+Swifts are small birds which spend the majority of their lives flying. These birds have very short legs and never settle voluntarily on the ground, perching instead only on vertical surfaces. Many swifts have long swept-back wings which resemble a crescent or boomerang.
+
+White-rumped needletail, Zoonavena sylvatica (A)
+White-throated needletail, Hirundapus caudacutus
+Himalayan swiftlet, Aerodramus brevirostris
+Alpine swift, Apus melba
+Common swift, Apus apus (A)
+Plain swift, Apus unicolor (A)
+Pacific swift, Apus pacificus
+Salim Ali's swift, Apus salimalii (A)
+Blyth's swift, Apus leuconyx
+Dark-rumped swift, Apus acuticauda
+Little swift, Apus affinis (A)
+House swift, Apus nipalensis
+Asian palm-swift, Cypsiurus balasiensis
+
+Treeswifts
+Order: Caprimulgiformes   Family: Hemiprocnidae
+The treeswifts, also called crested swifts, are closely related to the true swifts. They differ from the other swifts in that they have crests, long forked tails and softer plumage.
+
+Crested treeswift, Hemiprocne coronata
+
+Rails, gallinules, and coots
+Order: Gruiformes   Family: Rallidae
+Rallidae is a large family of small to medium-sized birds which includes the rails, crakes, coots and gallinules. Typically they inhabit dense vegetation in damp environments near lakes, swamps or rivers. In general they are shy and secretive birds, making them difficult to observe. Most species have strong legs and long toes which are well adapted to soft uneven surfaces. They tend to have short, rounded wings and to be weak fliers.
+
+Slaty-breasted rail, Lewinia striata
+Eurasian moorhen, Gallinula chloropus (A)
+Eurasian coot, Fulica atra
+Gray-headed swamphen, Porphyrio poliocephalus (A)
+Watercock, Gallicrex cinerea (A)
+White-breasted waterhen, Amaurornis phoenicurus
+Slaty-legged crake, Rallina eurizonoides (A)
+Ruddy-breasted crake, Zapornia fusca
+Black-tailed crake, Zapornia bicolor
+
+Cranes
+Order: Gruiformes   Family: Gruidae
+Cranes are large, long-legged and long-necked birds. Unlike the similar-looking but unrelated herons, cranes fly with necks outstretched, not pulled back. Most have elaborate and noisy courting displays or "dances".
+
+Demoiselle crane, Anthropoides virgo (A)
+Common crane, Grus grus (A)
+Hooded crane, Grus monacha (A)
+Black-necked crane, Grus nigricollis
+
+Thick-knees
+Order: Charadriiformes   Family: Burhinidae
+The thick-knees are a group of largely tropical waders in the family Burhinidae. They are found worldwide within the tropical zone, with some species also breeding in temperate Europe and Australia. They are medium to large waders with strong black or yellow-black bills, large yellow eyes and cryptic plumage. Despite being classed as waders, most species have a preference for arid or semi-arid habitats.
+
+Indian thick-knee, Burhinus indicus
+Great thick-knee, Burhinus recurvirostris (A)
+
+Stilts and avocets
+Order: Charadriiformes   Family: Recurvirostridae
+Recurvirostridae is a family of large wading birds, which includes the avocets and stilts. The avocets have long legs and long up-curved bills. The stilts have extremely long legs and long, thin, straight bills.
+
+Black-winged stilt, Himantopus himantopus
+Pied avocet, Recurvirostra avosetta
+
+Ibisbill
+Order: Charadriiformes   Family: Ibidorhynchidae
+The ibisbill is related to the waders, but is sufficiently distinctive to be a family unto itself. The adult is grey with a white belly, red legs, a long down curved bill, and a black face and breast band.
+
+Ibisbill, Ibidorhyncha struthersii
+
+Plovers and lapwings
+Order: Charadriiformes   Family: Charadriidae
+The family Charadriidae includes the plovers, dotterels and lapwings. They are small to medium-sized birds with compact bodies, short, thick necks and long, usually pointed, wings. They are found in open country worldwide, mostly in habitats near water.
+
+Pacific golden-plover, Pluvialis fulva (A)
+Northern lapwing, Vanellus vanellus
+River lapwing, Vanellus duvaucelii
+Yellow-wattled lapwing, Vanellus malabaricus (A)
+Gray-headed lapwing, Vanellus cinereus (A)
+Red-wattled lapwing, Vanellus indicus
+Lesser sand-plover, Charadrius mongolus (A)
+Kentish plover, Charadrius alexandrinus (A)
+Long-billed plover, Charadrius placidus
+Little ringed plover, Charadrius dubius
+
+Painted-snipes
+Order: Charadriiformes   Family: Rostratulidae
+Painted-snipes are short-legged, long-billed birds similar in shape to the true snipes, but more brightly colored.
+
+Greater painted-snipe, Rostratula benghalensis (A)
+
+Jacanas
+Order: Charadriiformes   Family: Jacanidae
+The jacanas are a group of tropical waders in the family Jacanidae. They are found throughout the tropics. They are identifiable by their huge feet and claws which enable them to walk on floating vegetation in the shallow lakes that are their preferred habitat.
+
+Pheasant-tailed jacana, Hydrophasianus chirurgus (A)
+Bronze-winged jacana, Metopidius indicus (A)
+
+Sandpipers and allies
+Order: Charadriiformes   Family: Scolopacidae
+Scolopacidae is a large diverse family of small to medium-sized shorebirds including the sandpipers, curlews, godwits, shanks, tattlers, woodcocks, snipes, dowitchers and phalaropes. The majority of these species eat small invertebrates picked out of the mud or soil. Variation in length of legs and bills enables multiple species to feed in the same habitat, particularly on the coast, without direct competition for food.
+
+Buttonquail
+Order: Charadriiformes   Family: Turnicidae
+The buttonquail are small, drab, running birds which resemble the true quails. The female is the brighter of the sexes and initiates courtship. The male incubates the eggs and tends the young.
+
+Yellow-legged buttonquail, Turnix tanki
+Barred buttonquail, Turnix suscitator
+
+Pratincoles and coursers
+Order: Charadriiformes   Family: Glareolidae
+Glareolidae is a family of wading birds comprising the pratincoles, which have short legs, long pointed wings and long forked tails, and the coursers, which have long legs, short wings and long, pointed bills which curve downwards.
+
+Oriental pratincole, Glareola maldivarum (A)
+Small pratincole, Glareola lactea
+
+Gulls, terns, and skimmers
+Order: Charadriiformes   Family: Laridae
+Laridae is a family of medium to large seabirds, the gulls, terns, and skimmers. Gulls are typically grey or white, often with black markings on the head or wings. They have stout, longish bills and webbed feet. Terns are a group of generally medium to large seabirds typically with grey or white plumage, often with black markings on the head. Most terns hunt fish by diving but some pick insects off the surface of fresh water. Terns are generally long-lived birds, with several species known to live in excess of 30 years.
+
+Slender-billed gull, Chroicocephalus genei (A)
+Black-headed gull, Chroicocephalus ridibundus (A)
+Brown-headed gull, Chroicocephalus brunnicephalus
+Pallas's gull, Ichthyaetus ichthyaetus
+Common gull, Larus canus (A)
+Lesser black-backed gull, Larus fuscus (A)
+Little tern, Sternula albifrons (A)
+Whiskered tern, Chlidonias hybrida (A)
+Common tern, Sterna hirundo (A)
+River tern, Sterna aurantia (A)
+
+Storks
+Order: Ciconiiformes   Family: Ciconiidae
+Storks are large, long-legged, long-necked, wading birds with long, stout bills. Storks are mute, but bill-clattering is an important mode of communication at the nest. Their nests can be large and may be reused for many years.
+
+Asian openbill, Anastomus oscitans (A)
+Black stork, Ciconia nigra
+Asian woolly-necked stork, Ciconia episcopus
+Black-necked stork, Ephippiorhynchus asiaticus (A)
+Lesser adjutant, Leptoptilos javanicus (A)
+Greater adjutant, Leptoptilos dubius (A)
+
+Cormorants and shags
+Order: Suliformes   Family: Phalacrocoracidae
+Phalacrocoracidae is a family of medium to large coastal, fish-eating seabirds that includes cormorants and shags. Plumage colouration varies, with the majority having mainly dark plumage, some species being black-and-white and a few being colourful.
+
+Little cormorant, Microcarbo niger
+Great cormorant, Phalacrocorax carbo
+Indian cormorant, Phalacrocorax fuscicollis (A)
+
+Herons, egrets, and bitterns
+Order: Pelecaniformes   Family: Ardeidae
+The family Ardeidae contains the bitterns, herons, and egrets. Herons and egrets are medium to large wading birds with long necks and legs. Bitterns tend to be shorter necked and more wary. Members of Ardeidae fly with their necks retracted, unlike other long-necked birds such as storks, ibises and spoonbills.
+
+Cinnamon bittern, Ixobrychus cinnamomeus (A)
+Gray heron, Ardea cinerea
+White-bellied heron, Ardea insignis
+Great egret, Ardea alba
+Intermediate egret, Ardea intermedia
+Little egret, Egretta garzetta
+Cattle egret, Bubulcus ibis
+Indian pond-heron, Ardeola grayii
+Chinese pond-heron, Ardeola bacchus (A)
+Striated heron, Butorides striata
+Black-crowned night-heron, Nycticorax nycticorax
+Malayan night-heron, Gorsachius melanolophus (A)
+
+Ibises and spoonbills
+Order: Pelecaniformes   Family: Threskiornithidae
+Threskiornithidae is a family of large terrestrial and wading birds which includes the ibises and spoonbills. They have long, broad wings with 11 primary and about 20 secondary feathers. They are strong fliers and despite their size and weight, very capable soarers.
+
+Red-naped ibis, Pseudibis papillosa (A)
+
+Osprey
+Order: Accipitriformes   Family: Pandionidae
+The family Pandionidae contains only one species, the osprey. The osprey is a medium-large raptor which is a specialist fish-eater with a worldwide distribution.
+
+Osprey, Pandion haliaetus
+
+Hawks, eagles, and kites
+Order: Accipitriformes   Family: Accipitridae
+Accipitridae is a family of birds of prey, which includes hawks, eagles, kites, harriers and Old World vultures. These birds have powerful hooked beaks for tearing flesh from their prey, strong legs, powerful talons and keen eyesight.
+
+Barn-owls
+Order: Strigiformes   Family: Tytonidae
+Barn-owls are medium to large owls with large heads and characteristic heart-shaped faces. They have long strong legs with powerful talons.
+
+Eastern barn owl, Tyto javanica (A)
+Oriental bay-owl, Phodilus badius (A)
+
+Owls
+Order: Strigiformes   Family: Strigidae
+The typical owls are small to large solitary nocturnal birds of prey. They have large forward-facing eyes and ears, a hawk-like beak and a conspicuous circle of feathers around each eye called a facial disk.
+
+Trogons
+Order: Trogoniformes   Family: Trogonidae
+The family Trogonidae includes trogons and quetzals. Found in tropical woodlands worldwide, they feed on insects and fruit, and their broad bills and weak legs reflect their diet and arboreal habits. Although their flight is fast, they are reluctant to fly any distance. Trogons have soft, often colourful, feathers with distinctive male and female plumage.
+
+Red-headed trogon, Harpactes erythrocephalus
+Ward's trogon, Harpactes wardi
+
+Hoopoes
+Order: Bucerotiformes   Family: Upupidae
+Hoopoes have black, white and orangey-pink colouring with a large erectile crest on their head.
+
+Eurasian hoopoe, Upupa epops
+
+Hornbills
+Order: Bucerotiformes   Family: Bucerotidae
+Hornbills are a group of birds whose bill is shaped like a cow's horn, but without a twist, sometimes with a casque on the upper mandible. Frequently, the bill is brightly coloured.
+
+Great hornbill, Buceros bicornis
+Indian grey hornbill, Ocyceros birostris (A)
+Oriental pied-hornbill, Anthracoceros albirostris
+Rufous-necked hornbill, Aceros nipalensis
+Wreathed hornbill, Rhyticeros undulatus
+
+Kingfishers
+Order: Coraciiformes   Family: Alcedinidae
+Kingfishers are medium-sized birds with large heads, long, pointed bills, short legs and stubby tails.
+
+Blyth's kingfisher, Alcedo hercules
+Common kingfisher, Alcedo atthis
+Black-backed dwarf-kingfisher, Ceyx erithaca
+Stork-billed kingfisher, Pelargopsis capensis
+Ruddy kingfisher, Halcyon coromanda
+White-throated kingfisher, Halcyon smyrnensis
+Black-capped kingfisher, Halcyon pileata (A)
+Crested kingfisher, Megaceryle lugubris
+Pied kingfisher, Ceryle rudis
+
+Bee-eaters
+Order: Coraciiformes   Family: Meropidae
+The bee-eaters are a group of near passerine birds in the family Meropidae. Most species are found in Africa but others occur in southern Europe, Madagascar, Australia and New Guinea. They are characterised by richly coloured plumage, slender bodies and usually elongated central tail feathers. All are colourful and have long downturned bills and pointed wings, which give them a swallow-like appearance when seen from afar.
+
+Blue-bearded bee-eater, Nyctyornis athertoni
+Asian green bee-eater, Merops orientalis
+Blue-tailed bee-eater, Merops philippinus (A)
+Chestnut-headed bee-eater, Merops leschenaulti
+
+Rollers
+Order: Coraciiformes   Family: Coraciidae
+Rollers resemble crows in size and build, but are more closely related to the kingfishers and bee-eaters. They share the colourful appearance of those groups with blues and browns predominating. The two inner front toes are connected, but the outer toe is not.
+
+Indian roller, Coracias benghalensis
+Indochinese roller, Coracias affinis
+Dollarbird, Eurystomus orientalis
+
+Asian barbets
+Order: Piciformes   Family: Megalaimidae
+The Asian barbets are plump birds, with short necks and large heads. They get their name from the bristles which fringe their heavy bills. Most species are brightly coloured.
+
+Coppersmith barbet, Psilopogon haemacephalus
+Blue-eared barbet, Psilopogon duvaucelii
+Great barbet, Psilopogon virens
+Lineated barbet, Psilopogon lineatus
+Golden-throated barbet, Psilopogon franklinii
+Blue-throated barbet, Psilopogon asiaticus
+
+Honeyguides
+Order: Piciformes   Family: Indicatoridae
+Honeyguides are among the few birds that feed on wax. They are named for the greater honeyguide which leads traditional honey-hunters to bees' nests and, after the hunters have harvested the honey, feeds on the remaining contents of the hive.
+
+Yellow-rumped honeyguide, Indicator xanthonotus
+
+Woodpeckers
+Order: Piciformes   Family: Picidae
+Woodpeckers are small to medium-sized birds with chisel-like beaks, short legs, stiff tails and long tongues used for capturing insects. Some species have feet with two toes pointing forward and two backward, while several species have only three toes. Many woodpeckers have the habit of tapping noisily on tree trunks with their beaks.
+
+Falcons and caracaras
+Order: Falconiformes   Family: Falconidae
+Falconidae is a family of diurnal birds of prey. They differ from hawks, eagles and kites in that they kill with their beaks instead of their talons.
+
+Collared falconet, Microhierax caerulescens
+Pied falconet, Microhierax melanoleucus
+Eurasian kestrel, Falco tinnunculus
+Red-necked falcon, Falco chicquera (A)
+Amur falcon, Falco amurensis
+Merlin, Falco columbarius (A)
+Eurasian hobby, Falco subbuteo
+Oriental hobby, Falco severus
+Peregrine falcon, Falco peregrinus
+
+Old world parrots
+Order: Psittaciformes   Family: Psittaculidae
+Characteristic features of parrots include a strong curved bill, an upright stance, strong legs, and clawed zygodactyl feet. Many parrots are vividly coloured, and some are multi-coloured. In size they range from 8 cm (3.1 in) to 1 m (3.3 ft) in length. Old World parrots are found from Africa east across south and southeast Asia and Oceania to Australia and New Zealand.
+
+Alexandrine parakeet, Psittacula eupatria
+Rose-ringed parakeet, Psittacula krameri (I)
+Slaty-headed parakeet, Psittacula himalayana
+Gray-headed parakeet, Psittacula finschii (A)
+Plum-headed parakeet, Psittacula cyanocephala (A)
+Blossom-headed parakeet, Psittacula roseata
+Red-breasted parakeet, Psittacula alexandri
+
+Asian and Grauer's broadbills
+Order: Passeriformes   Family: Eurylaimidae
+The broadbills are small, brightly coloured birds, which feed on fruit and also take insects in flycatcher fashion, snapping their broad bills. Their habitat is canopies of wet forests.
+
+Long-tailed broadbill, Psarisomus dalhousiae
+Silver-breasted broadbill, Serilophus lunatus
+
+Pittas
+Order: Passeriformes   Family: Pittidae
+Pittas are medium-sized by passerine standards and are stocky, with fairly long, strong legs, short tails and stout bills. Many are brightly coloured. They spend the majority of their time on wet forest floors, eating snails, insects and similar invertebrates.
+
+Blue-naped pitta, Hydrornis nipalensis
+Indian pitta, Pitta brachyura (A)
+Hooded pitta, Pitta sordida
+
+Cuckooshrikes
+Order: Passeriformes   Family: Campephagidae
+The cuckooshrikes are small to medium-sized passerine birds. They are predominantly greyish with white and black, although some species are brightly coloured.
+
+Small minivet, Pericrocotus cinnamomeus
+Gray-chinned minivet, Pericrocotus solaris
+Short-billed minivet, Pericrocotus brevirostris
+Long-tailed minivet, Pericrocotus ethologus
+Scarlet minivet, Pericrocotus flammeus
+Rosy minivet, Pericrocotus roseus
+Large cuckooshrike, Coracina macei
+Black-winged cuckooshrike, Lalage melaschistos
+Black-headed cuckooshrike, Lalage melanoptera (A)
+
+Vireos, shrike-babblers, and erpornis
+Order: Passeriformes   Family: Vireonidae
+Most of the members of this family are found in the New World. However, the shrike-babblers and erpornis, which only slightly resemble the "true" vireos and greenlets, are found in South East Asia.
+
+Black-headed shrike-babbler, Pteruthius rufiventer
+White-browed shrike-babbler, Pteruthius aeralatus
+Green shrike-babbler, Pteruthius xanthochlorus
+Black-eared shrike-babbler, Pteruthius melanotis
+White-bellied erpornis, Erpornis zantholeuca
+
+Old World orioles
+Order: Passeriformes   Family: Oriolidae
+The Old World orioles are colourful passerine birds. They are not related to the New World orioles.
+
+Indian golden oriole, Oriolus kundoo
+Black-naped oriole, Oriolus chinensis (A)
+Slender-billed oriole, Oriolus tenuirostris
+Black-hooded oriole, Oriolus xanthornus
+Maroon oriole, Oriolus traillii
+
+Woodswallows, bellmagpies, and allies
+Order: Passeriformes   Family: Artamidae
+The woodswallows are soft-plumaged, somber-coloured passerine birds. They are smooth, agile flyers with moderately large, semi-triangular wings.
+
+Ashy woodswallow, Artamus fuscus
+
+Vangas, helmetshrikes, and allies
+Order: Passeriformes   Family: Vangidae
+The family Vangidae is highly variable, though most members of it resemble true shrikes to some degree.
+
+Large woodshrike, Tephrodornis virgatus
+Common woodshrike, Tephrodornis pondicerianus
+Bar-winged flycatcher-shrike, Hemipus picatus
+
+Ioras
+Order: Passeriformes   Family: Aegithinidae
+The ioras are bulbul-like birds of open forest or thorn scrub, but whereas that group tends to be drab in colouration, ioras are sexually dimorphic, with the males being brightly plumaged in yellows and greens.
+
+Common iora, Aegithina tiphia
+
+Fantails
+Order: Passeriformes   Family: Rhipiduridae
+The fantails are small insectivorous birds which are specialist aerial feeders.
+
+White-throated fantail, Rhipidura albicollis
+
+Drongos
+Order: Passeriformes   Family: Dicruridae
+The drongos are mostly black or dark grey in colour, sometimes with metallic tints. They have long forked tails, and some Asian species have elaborate tail decorations. They have short legs and sit very upright when perched, like a shrike. They flycatch or take prey from the ground.
+
+Black drongo, Dicrurus macrocercus
+Ashy drongo, Dicrurus leucophaeus
+Crow-billed drongo, Dicrurus annectens
+Bronzed drongo, Dicrurus aeneus
+Lesser racket-tailed drongo, Dicrurus remifer
+Hair-crested drongo, Dicrurus hottentottus
+Greater racket-tailed drongo, Dicrurus paradiseus
+
+Monarch flycatchers
+Order: Passeriformes   Family: Monarchidae
+The monarch flycatchers are small to medium-sized insectivorous passerines which hunt by flycatching.
+
+Black-naped monarch, Hypothymis azurea
+Blyth's paradise-flycatcher, Terpsiphone affinis
+Indian paradise-flycatcher, Terpsiphone paradisi
+
+Shrikes
+Order: Passeriformes   Family: Laniidae
+Shrikes are passerine birds known for their habit of catching other birds and small animals and impaling the uneaten portions of their bodies on thorns. A typical shrike's beak is hooked, like a bird of prey.
+
+Tiger shrike, Lanius tigrinus (A)
+Brown shrike, Lanius cristatus
+Bay-backed shrike, Lanius vittatus (A)
+Long-tailed shrike, Lanius schach
+Gray-backed shrike, Lanius tephronotus
+
+Crows, jays, and magpies
+Order: Passeriformes   Family: Corvidae
+The family Corvidae includes crows, ravens, jays, choughs, magpies, treepies, nutcrackers and ground jays. Corvids are above average in size among the Passeriformes, and some of the larger species show high levels of intelligence.
+
+Eurasian jay, Garrulus glandarius
+Yellow-billed blue-magpie, Urocissa flavirostris
+Common green-magpie, Cissa chinensis
+Rufous treepie, Dendrocitta vagabunda
+Gray treepie, Dendrocitta formosae
+Collared treepie, Dendrocitta frontalis
+Black-rumped magpie, Pica bottanensis
+Oriental magpie, Pica serica
+Eurasian nutcracker, Nucifraga caryocatactes
+Red-billed chough, Pyrrhocorax pyrrhocorax
+Yellow-billed chough, Pyrrhocorax graculus
+House crow, Corvus splendens
+Large-billed crow, Corvus macrorhynchos
+Common raven, Corvus corax
+
+Fairy flycatchers
+Order: Passeriformes   Family: Stenostiridae
+Most of the species of this small family are found in Africa, though a few inhabit tropical Asia. They are not closely related to other birds called "flycatchers".
+
+Yellow-bellied fantail, Chelidorhynx hypoxanthus
+Gray-headed canary-flycatcher, Culicicapa ceylonensis
+
+Tits, chickadees, and titmice
+Order: Passeriformes   Family: Paridae
+The Paridae are mainly small stocky woodland species with short stout bills. Some have crests. They are adaptable birds, with a mixed diet including seeds and insects.
+
+Fire-capped tit, Cephalopyrus flammiceps
+Yellow-browed tit, Sylviparus modestus
+Sultan tit, Melanochlora sultanea
+Coal tit, Periparus ater
+Rufous-vented tit, Periparus rubidiventris
+Gray-crested tit, Lophophanes dichrous
+Green-backed tit, Parus monticolus
+Cinereous tit, Parus cinereus
+Japanese tit, Parus minor
+Yellow-cheeked tit, Parus spilonotus
+
+Larks
+Order: Passeriformes   Family: Alaudidae
+Larks are small terrestrial birds with often extravagant songs and display flights. Most larks are fairly dull in appearance. Their food is insects and seeds.
+
+Bengal bushlark, Mirafra assamica
+Horned lark, Eremophila alpestris (A)
+Greater short-toed lark, Calandrella brachydactyla (A)
+Hume's lark, Calandrella acutirostris (A)
+Sand lark, Alaudala raytal
+Oriental skylark, Alauda gulgula
+
+Cisticolas and allies
+Order: Passeriformes   Family: Cisticolidae
+The Cisticolidae are warblers found mainly in warmer southern regions of the Old World. They are generally very small birds of drab brown or grey appearance found in open country such as grassland or scrub.
+
+Common tailorbird, Orthotomus sutorius
+Himalayan prinia, Prinia crinigera
+Black-throated prinia, Prinia atrogularis
+Gray-crowned prinia, Prinia cinereocapilla
+Rufescent prinia, Prinia rufescens
+Gray-breasted prinia, Prinia hodgsonii
+Jungle prinia, Prinia sylvatica
+Yellow-bellied prinia, Prinia flaviventris
+Ashy prinia, Prinia socialis
+Plain prinia, Prinia inornata
+
+Reed warblers and allies
+Order: Passeriformes   Family: Acrocephalidae
+The members of this family are usually rather large for "warblers". Most are rather plain olivaceous brown above with much yellow to beige below. They are usually found in open woodland, reedbeds, or tall grass. The family occurs mostly in southern to western Eurasia and surroundings, but it also ranges far into the Pacific, with some species in Africa.
+
+Thick-billed warbler, Arundinax aedon
+Booted warbler, Iduna caligata (A)
+Blyth's reed warbler, Acrocephalus dumetorum
+Clamorous reed warbler, Acrocephalus stentoreus
+
+Grassbirds and allies
+Order: Passeriformes   Family: Locustellidae
+Locustellidae are a family of small insectivorous songbirds found mainly in Eurasia, Africa, and the Australian region. They are smallish birds with tails that are usually long and pointed, and tend to be drab brownish or buffy all over.
+
+Striated grassbird, Megalurus palustris (A)
+Brown bush warbler, Locustella luteoventris
+Spotted bush warbler, Locustella thoracica
+Russet bush warbler, Locustella mandelli (A)
+
+Cupwings
+Order: Passeriformes   Family: Pnoepygidae
+The members of this small family are found in mountainous parts of South and South East Asia.
+
+Scaly-breasted cupwing, Pnoepyga albiventer
+Pygmy cupwing, Pnoepyga pusilla
+
+Swallows
+Order: Passeriformes   Family: Hirundinidae
+The family Hirundinidae is adapted to aerial feeding. They have a slender streamlined body, long pointed wings and a short bill with a wide gape. The feet are adapted to perching rather than walking, and the front toes are partially joined at the base.
+
+Gray-throated martin, Riparia chinensis
+Bank swallow, Riparia riparia
+Pale sand martin, Riparia diluta
+Eurasian crag-martin, Ptyonoprogne rupestris
+Barn swallow, Hirundo rustica
+Red-rumped swallow, Cecropis daurica
+Asian house-martin, Delichon dasypus
+Nepal house-martin, Delichon nipalensis
+
+Bulbuls
+Order: Passeriformes   Family: Pycnonotidae
+Bulbuls are medium-sized songbirds. Some are colourful with yellow, red or orange vents, cheeks, throats or supercilia, but most are drab, with uniform olive-brown to black plumage. Some species have distinct crests.
+
+Black-crested bulbul, Rubigula flaviventris
+Striated bulbul, Pycnonotus striatus
+Red-vented bulbul, Pycnonotus cafer
+Red-whiskered bulbul, Pycnonotus jocosus
+Himalayan bulbul, Pycnonotus leucogenys
+White-throated bulbul, Alophoixus flaveolus
+Black bulbul, Hypsipetes leucocephalus
+Ashy bulbul, Hemixos flavala
+Mountain bulbul, Ixos mcclellandii
+
+Leaf warblers
+Order: Passeriformes   Family: Phylloscopidae
+Leaf warblers are a family of small insectivorous birds found mostly in Eurasia and ranging into Wallacea and Africa. The species are of various sizes, often green-plumaged above and yellow below, or more subdued with greyish-green to greyish-brown colours.
+
+Bush warblers and allies
+Order: Passeriformes   Family: Scotocercidae
+The members of this family are found throughout Africa, Asia, and Polynesia. Their taxonomy is in flux, and some authorities place some genera in other families.
+
+Pale-footed bush warbler, Urosphena pallidipes
+Gray-bellied tesia, Tesia cyaniventer
+Slaty-bellied tesia, Tesia olivea
+Chestnut-crowned bush warbler, Cettia major
+Gray-sided bush warbler, Cettia brunnifrons
+Chestnut-headed tesia, Cettia castaneocoronata
+Yellow-bellied warbler, Abroscopus superciliaris
+Rufous-faced warbler, Abroscopus albogularis
+Black-faced warbler, Abroscopus schisticeps
+Mountain tailorbird, Phyllergates cuculatus
+Broad-billed warbler, Tickellia hodgsoni
+Brown-flanked bush warbler, Horornis fortipes
+Hume's bush warbler, Horornis brunnescens
+Aberrant bush warbler, Horornis flavolivacea
+
+Long-tailed tits
+Order: Passeriformes   Family: Aegithalidae
+Long-tailed tits are a group of small passerine birds with medium to long tails. They make woven bag nests in trees. Most eat a mixed diet which includes insects.
+
+White-browed tit-warbler, Leptopoecile sophiae (A)
+Black-throated tit, Aegithalos concinnus
+Black-browed tit, Aegithalos iouschistos
+
+Sylviid warblers, parrotbills, and allies
+Order: Passeriformes   Family: Sylviidae
+The family Sylviidae is a group of small insectivorous passerine birds. They mainly occur as breeding species, as the common name implies, in Europe, Asia and, to a lesser extent, Africa. Most are of generally undistinguished appearance, but many have distinctive songs.
+
+Lesser whitethroat, Curruca curruca
+Fire-tailed myzornis, Myzornis pyrrhoura
+Golden-breasted fulvetta, Lioparus chrysotis
+Jerdon's babbler, Chrysomma altirostre
+Brown-throated fulvetta, Fulvetta ludlowi
+White-browed fulvetta, Fulvetta vinipectus
+Great parrotbill, Conostoma aemodium
+Brown parrotbill, Cholornis unicolor
+Gray-headed parrotbill, Psittiparus gularis
+White-breasted parrotbill, Psittiparus ruficeps
+Pale-billed parrotbill, Chleuasicus atrosuperciliaris
+Fulvous parrotbill, Suthora fulvifrons
+Black-throated parrotbill, Suthora nipalensis
+
+White-eyes, yuhinas, and allies
+Order: Passeriformes   Family: Zosteropidae
+The white-eyes are small and mostly undistinguished, their plumage above being generally some dull color like greenish-olive, but some species have a white or bright yellow throat, breast or lower parts, and several have buff flanks. As their name suggests, many species have a white ring around each eye.
+
+Striated yuhina, Staphida castaniceps
+White-naped yuhina, Yuhina bakeri
+Whiskered yuhina, Yuhina flavicollis
+Stripe-throated yuhina, Yuhina gularis
+Rufous-vented yuhina, Yuhina occipitalis
+Black-chinned yuhina, Yuhina nigrimenta
+Indian white-eye, Zosterops palpebrosus
+
+Tree-babblers, scimitar-babblers, and allies
+Order: Passeriformes   Family: Timaliidae
+The babblers, or timaliids, are somewhat diverse in size and colouration, but are characterised by soft fluffy plumage.
+
+Ground babblers and allies
+Order: Passeriformes   Family: Pellorneidae
+These small to medium-sized songbirds have soft fluffy plumage but are otherwise rather diverse. Members of the genus Illadopsis are found in forests, but some other genera are birds of scrublands.
+
+White-hooded babbler, Gampsorhynchus rufulus
+Yellow-throated fulvetta, Schoeniparus cinereus
+Rufous-winged fulvetta, Schoeniparus castaneceps
+Rufous-throated fulvetta, Schoeniparus rufogularis
+Rusty-capped fulvetta, Schoeniparus dubius
+Puff-throated babbler, Pellorneum ruficeps
+Spot-throated babbler, Pellorneum albiventre
+Buff-breasted babbler, Pellorneum tickelli (A)
+Eyebrowed wren-babbler, Napothera epilepidota
+Long-billed wren-babbler, Napothera malacoptila
+Abbott's babbler, Malacocincla abbotti
+Indian grassbird, Graminicola bengalensis
+
+Laughingthrushes and allies
+Order: Passeriformes   Family: Leiothrichidae
+The members of this family are diverse in size and colouration, though those of genus Turdoides tend to be brown or greyish. The family is found in Africa, India, and southeast Asia.
+
+Kinglets
+Order: Passeriformes   Family: Regulidae
+The kinglets, also called crests, are a small group of birds often included in the Old World warblers, but frequently given family status because they also resemble the titmice.
+
+Goldcrest, Regulus regulus
+
+Wallcreeper
+Order: Passeriformes   Family: Tichodromidae
+The wallcreeper is a small bird related to the nuthatch family, which has stunning crimson, grey and black plumage.
+
+Wallcreeper, Tichodroma muraria
+
+Nuthatches
+Order: Passeriformes   Family: Sittidae
+Nuthatches are small woodland birds. They have the unusual ability to climb down trees head first, unlike other birds which can only go upwards. Nuthatches have big heads, short tails and powerful bills and feet.
+
+Chestnut-bellied nuthatch, Sitta castanea
+White-tailed nuthatch, Sitta himalayensis
+Velvet-fronted nuthatch, Sitta frontalis
+Beautiful nuthatch, Sitta formosa
+
+Treecreepers
+Order: Passeriformes   Family: Certhiidae
+Treecreepers are small woodland birds, brown above and white below. They have thin pointed down-curved bills, which they use to extricate insects from bark. They have stiff tail feathers, like woodpeckers, which they use to support themselves on vertical trees.
+
+Hodgson's treecreeper, Certhia hodgsoni
+Bar-tailed treecreeper, Certhia himalayana (A)
+Rusty-flanked treecreeper, Certhia nipalensis
+Sikkim treecreeper, Certhia discolor
+
+Wrens
+Order: Passeriformes   Family: Troglodytidae
+The wrens are mainly small and inconspicuous except for their loud songs. These birds have short wings and thin down-turned bills. Several species often hold their tails upright. All are insectivorous.
+
+Eurasian wren, Troglodytes troglodytes
+
+Spotted elachura
+Order: Passeriformes   Family: Elachuridae
+This species, the only one in its family, inhabits forest undergrowth throughout South East Asia.
+
+Spotted elachura, Elachura formosa
+
+Dippers
+Order: Passeriformes   Family: Cinclidae
+Dippers are a group of perching birds whose habitat includes aquatic environments in the Americas, Europe and Asia. They are named for their bobbing or dipping movements.
+
+White-throated dipper, Cinclus cinclus
+Brown dipper, Cinclus pallasii
+
+Starlings
+Order: Passeriformes   Family: Sturnidae
+Starlings are small to medium-sized passerine birds. Their flight is strong and direct and they are very gregarious. Their preferred habitat is fairly open country. They eat insects and fruit. Plumage is typically dark with a metallic sheen.
+
+Golden-crested myna, Ampeliceps coronatus (A)
+Common hill myna, Gracula religiosa
+European starling, Sturnus vulgaris (A)
+Rosy starling, Pastor roseus (A)
+Indian pied starling, Gracupica contra
+Brahminy starling, Sturnia pagodarum (A)
+Chestnut-tailed starling, Sturnia malabarica
+White-cheeked starling, Spodiopsar cineraceus (A)
+Common myna, Acridotheres tristis
+Bank myna, Acridotheres ginginianus
+Jungle myna, Acridotheres fuscus
+Spot-winged starling, Saroglossa spilopterus
+
+Thrushes and allies
+Order: Passeriformes   Family: Turdidae
+The thrushes are a group of passerine birds that occur mainly in the Old World. They are plump, soft plumaged, small to medium-sized insectivores or sometimes omnivores, often feeding on the ground. Many have attractive songs.
+
+Old World flycatchers
+Order: Passeriformes   Family: Muscicapidae
+Old World flycatchers are a large group of small passerine birds native to the Old World. They are mainly small arboreal insectivores. The appearance of these birds is highly varied, but they mostly have weak songs and harsh calls.
+
+Flowerpeckers
+Order: Passeriformes   Family: Dicaeidae
+The flowerpeckers are very small, stout, often brightly coloured birds, with short tails, short thick curved bills and tubular tongues.
+
+Thick-billed flowerpecker, Dicaeum agile
+Yellow-vented flowerpecker, Dicaeum chrysorrheum
+Yellow-bellied flowerpecker, Dicaeum melanozanthum
+Pale-billed flowerpecker, Dicaeum erythrorhynchos
+Plain flowerpecker, Dicaeum minullum
+Fire-breasted flowerpecker, Dicaeum ignipectus
+Scarlet-backed flowerpecker, Dicaeum cruentatum
+
+Sunbirds and spiderhunters
+Order: Passeriformes   Family: Nectariniidae
+The sunbirds and spiderhunters are very small passerine birds which feed largely on nectar, although they will also take insects, especially when feeding young. Flight is fast and direct on their short wings. Most species can take nectar by hovering like a hummingbird, but usually perch to feed.
+
+Ruby-cheeked sunbird, Chalcoparia singalensis
+Purple sunbird, Cinnyris asiaticus
+Fire-tailed sunbird, Aethopyga ignicauda
+Black-throated sunbird, Aethopyga saturata
+Mrs. Gould's sunbird, Aethopyga gouldiae
+Green-tailed sunbird, Aethopyga nipalensis
+Crimson sunbird, Aethopyga siparaja
+Little spiderhunter, Arachnothera longirostra
+Streaked spiderhunter, Arachnothera magna
+
+Fairy-bluebirds
+Order: Passeriformes   Family: Irenidae
+The fairy-bluebirds are bulbul-like birds of open forest or thorn scrub. The males are dark-blue and the females a duller green.
+
+Asian fairy-bluebird, Irena puella
+
+Leafbirds
+Order: Passeriformes   Family: Chloropseidae
+The leafbirds are small, bulbul-like birds. The males are brightly plumaged, usually in greens and yellows.
+
+Golden-fronted leafbird, Chloropsis aurifrons
+Orange-bellied leafbird, Chloropsis hardwickii
+
+Weavers and allies
+Order: Passeriformes   Family: Ploceidae
+The weavers are small passerine birds related to the finches. They are seed-eating birds with rounded conical bills. The males of many species are brightly coloured, usually in red or yellow and black, some species show variation in colour only in the breeding season.
+
+Streaked weaver, Ploceus manyar
+Baya weaver, Ploceus philippinus
+Finn's weaver, Ploceus megarhynchus
+Black-breasted weaver, Ploceus benghalensis
+
+Waxbills and allies
+Order: Passeriformes   Family: Estrildidae
+The estrildid finches are small passerine birds of the Old World tropics and Australasia. They are gregarious and often colonial seed eaters with short thick but pointed bills. They are all similar in structure and habits, but have wide variation in plumage colours and patterns.
+
+White-rumped munia, Lonchura striata
+Scaly-breasted munia, Lonchura punctulata
+Pin-tailed parrotfinch, Erythrura prasina (A)
+
+Accentors
+Order: Passeriformes   Family: Prunellidae
+The accentors are in the only bird family, Prunellidae, which is completely endemic to the Palearctic. They are small, fairly drab species superficially similar to sparrows.
+
+Alpine accentor, Prunella collaris
+Altai accentor, Prunella himalayana
+Robin accentor, Prunella rubeculoides
+Rufous-breasted accentor, Prunella strophiata
+Brown accentor, Prunella fulvescens (A)
+Maroon-backed accentor, Prunella immaculata
+
+Old World sparrows
+Order: Passeriformes   Family: Passeridae
+Old World sparrows are small passerine birds. In general, sparrows tend to be small, plump, brown or grey birds with short tails and short powerful beaks. Sparrows are seed eaters, but they also consume small insects.
+
+House sparrow, Passer domesticus
+Russet sparrow, Passer cinnamomeus
+Eurasian tree sparrow, Passer montanus
+
+Wagtails and pipits
+Order: Passeriformes   Family: Motacillidae
+Motacillidae is a family of small passerine birds with medium to long tails. They include the wagtails, longclaws and pipits. They are slender, ground feeding insectivores of open country.
+
+Finches, euphonias, and allies
+Order: Passeriformes   Family: Fringillidae
+Finches are seed-eating passerine birds, that are small to moderately large and have a strong beak, usually conical and in some species very large. All have twelve tail feathers and nine primaries. These birds have a bouncing flight with alternating bouts of flapping and gliding on closed wings, and most sing well.
+
+Longspurs and snow buntings
+Order: Passeriformes   Family: Calcariidae
+The Calcariidae are a group of passerine birds which had been traditionally grouped with the New World sparrows, but differ in a number of respects and are usually found in open grassy areas.
+
+Lapland longspur, Calcarius lapponicus (A)
+
+Old World buntings
+Order: Passeriformes   Family: Emberizidae
+The emberizids are a large family of passerine birds. They are seed-eating birds with distinctively shaped bills. Many emberizid species have distinctive head patterns.
+
+Crested bunting, Emberiza lathami
+Godlewski's bunting, Emberiza godlewskii (A)
+Gray-necked bunting, Emberiza buchanani (A)
+Little bunting, Emberiza pusilla
+Rustic bunting, Emberiza rustica (A)
+Black-faced bunting, Emberiza spodocephala (A)
+
+See also
+List of birds
+Lists of birds by region
+
+References
+
+Lepage, Denis. "Checklist of Birds of Bhutan". Bird Checklists of the World. Avibase. Retrieved 27 April 2020.
+Clements, James F. (2000). Birds of the World: A Checklist. Cornell University Press. p. 880. ISBN 0-934797-16-1.
+Inskipp, Carol; et al. (2004). Timeless Field Guides: Birds of Bhutan. Timeless Books. p. 192.
