@@ -51,13 +51,13 @@ def get_dir_size(directory):
 def init_wiki(lang):
     print("Initializing Wikipedia...")
     return wikipediaapi.Wikipedia(
-    user_agent="WikiScraperBot/0.5 (marcingrelak6@gmail.com;) wikipediaapi/0.8.1",
+    user_agent="WikiScraperBot/0.7 (marcingrelak6@gmail.com;) wikipediaapi/0.8.1",
     language=lang,
     extract_format=wikipediaapi.ExtractFormat.WIKI
     )
 
 def get_random_page_title(wiki):
-    user_agent = "WikiScraperBot/0.5 (marcingrelak6@gmail.com;) wikipediaapi/0.8.1"
+    user_agent = "WikiScraperBot/0.7 (marcingrelak6@gmail.com;) wikipediaapi/0.8.1"
 #    print("Getting random page title...")
     try:
         response = requests.get(f'https://{wiki.language}.wikipedia.org/w/api.php?action=query&list=random&rnnamespace=0&format=json', headers={'User-Agent': user_agent}, timeout=(15, None))
