@@ -51,16 +51,19 @@ def get_dir_size(directory):
 def init_wiki(lang):
     print("Initializing Wikipedia...")
     return wikipediaapi.Wikipedia(
-    user_agent="WikiScraperBot/0.1 (marcingrelak6@gmail.com;) wikipediaapi/0.8.1",
+    user_agent="WikiScraperBot/0.5 (marcingrelak6@gmail.com;) wikipediaapi/0.8.1",
     language=lang,
     extract_format=wikipediaapi.ExtractFormat.WIKI
     )
 
 def get_random_page_title(wiki):
-    user_agent = "WikiScraperBot/0.1 (marcingrelak6@gmail.com;) wikipediaapi/0.8.1"
+    user_agent = "WikiScraperBot/0.5 (marcingrelak6@gmail.com;) wikipediaapi/0.8.1"
 #    print("Getting random page title...")
     try:
-        response = requests.get(f'https://{wiki.language}.wikipedia.org/w/api.php?action=query&list=random&rnnamespace=0&format=json', headers={'User-Agent': user_agent}, timeout=10)
+        response = requests.get(f'https://{wiki.language}.wikipedia.org/w/api.php?action=query&list=random&rnnamespace=0&format=json', headers={'User-Agent': user_agent}, timeout=30)
+    except requests.exceptions.ReadTimeout:
+        print("read timeout error")
+        return "Odessa Brigade"
     except requests.exceptions.Timeout:
         print("Timeout error")
         return "Odessa Brigade"
@@ -68,7 +71,7 @@ def get_random_page_title(wiki):
 #        print(response.text)
 #        print(response.json)
         data = response.json()
-#        print(data['query']['random'][0]['title'])
+        print(data['query']['random'][0]['title'])
         return data['query']['random'][0]['title']
 
 def save_page_content(wiki, page_title, directory):
