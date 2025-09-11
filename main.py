@@ -38,7 +38,7 @@ def create_folder(path):
         print("Folder {} created".format(path))
 
 def get_dir_size(directory):
-    total_size = 0;
+    total_size = 0
     for dirpath, dirnames, filenames in os.walk(directory):
         for f in filenames:
             file_path = os.path.join(dirpath, f)
