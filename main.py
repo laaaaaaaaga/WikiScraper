@@ -53,6 +53,7 @@ def init_wiki(lang):
     return wikipediaapi.Wikipedia(
     user_agent="WikiScraperBot/0.7 (marcingrelak6@gmail.com;) wikipediaapi/0.8.1",
     language=lang,
+    timeout = (15, None),
     extract_format=wikipediaapi.ExtractFormat.WIKI
     )
 
