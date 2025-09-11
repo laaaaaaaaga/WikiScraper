@@ -1,8 +1,8 @@
 import wikipediaapi
 import os
 import requests
-from urllib.parse import urljoin
-MAX_FOLDER_SIZE = 2*1024*1024 #200mb
+
+MAX_FOLDER_SIZE = 3*1024*1024 # in mb
 language_codes = ["en", "es", "fr", "de", "zh", "pt", "ru", "ja", "ko"]
 more_language_codes = ["af", "als", "am", "an", "ar", "arc", "ary", "as", "ast", "atj", "av", "ay", "az", "ba", "bar", "bat-smg", "bcl", "be", "be-tarask",
     "bg", "bh", "bi", "bjn", "bm", "bn", "bo", "br", "bs", "bpy",
@@ -34,6 +34,7 @@ def save_to_json(path, data):
 def create_folder(path):
     if not os.path.exists(path):
         os.makedirs(path)
+        print("Folder {} created".format(path))
 
 def get_dir_size(directory):
     total_size = 0;
@@ -42,10 +43,12 @@ def get_dir_size(directory):
             file_path = os.path.join(dirpath, f)
             if os.path.isfile(file_path):
                 total_size += os.path.getsize(file_path)
+#    print(total_size)
     return total_size
 
 
 def init_wiki(lang):
+    print("Initializing Wikipedia...")
     return wikipediaapi.Wikipedia(
     user_agent="WikiScraperBot/0.1 (marcingrelak6@gmail.com;) wikipediaapi/0.8.1",
     language=lang,
@@ -54,18 +57,25 @@ def init_wiki(lang):
 
 def get_random_page_title(wiki):
     user_agent = "WikiScraperBot/0.1 (marcingrelak6@gmail.com;) wikipediaapi/0.8.1"
-    response = requests.get(f'https://{wiki.language}.wikipedia.org/w/api.php?action=query&list=random&rnnamespace=0&format=json', headers={'User-Agent': user_agent})
-#    print(response.text)
-    data = response.json()
-#    print(data['query']['random'][0]['title'])
-    return data['query']['random'][0]['title']
+    print("Getting random page title...")
+    try:
+        response = requests.get(f'https://{wiki.language}.wikipedia.org/w/api.php?action=query&list=random&rnnamespace=0&format=json', headers={'User-Agent': user_agent})
+    except requests.exceptions.Timeout:
+        print("Timeout error")
+        return ""
+    else:
+        print(response.text)
+#       print(response.json)
+        data = response.json()
+        print(data['query']['random'][0]['title'])
+        return data['query']['random'][0]['title']
 
 def save_page_content(wiki, page_title, directory):
     page = wiki.page(page_title)
     if not page.exists():
         return False
 
-    file_path = os.path.join(directory, f"{page_title.replace(' ', '_').replace('/','_').replace('?','_').replace('*','_').replace('|','_').replace('\\','_').replace(':','_').replace('<','_').replace('>','_')}.txt")
+    file_path = os.path.join(directory, f"{page_title.replace(' ', '_').replace('\'', '').replace('/','_').replace('?','_').replace('*','_').replace('|','_').replace('\\','_').replace(':','_').replace('<','_').replace('>','_')}.txt")
 
     with open(file_path, 'w', encoding='utf-8') as f:
         f.write(page.text)
@@ -75,13 +85,13 @@ def save_page_content(wiki, page_title, directory):
 
 def download_pages(lang):
     wiki = init_wiki(lang)
-    dir = f"{lang}_data"
-    create_folder(dir)
+    directory = f"{lang}_data"
+    create_folder(directory)
     target_size = MAX_FOLDER_SIZE
 
-    while get_dir_size(dir) < target_size:
+    while get_dir_size(directory) < target_size:
         page_title = get_random_page_title(wiki)
-        if save_page_content(wiki, page_title, dir):
+        if save_page_content(wiki, page_title, directory):
             print(f"Saved: {page_title}")
         else:
             print(f"Page does not exist: {page_title}")
@@ -92,4 +102,5 @@ def main():
         download_pages(l)
 
 if __name__ == "__main__":
+    print("program started")
     main()
