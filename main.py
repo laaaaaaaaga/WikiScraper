@@ -60,7 +60,7 @@ def get_random_page_title(wiki):
     user_agent = "WikiScraperBot/0.1 (marcingrelak6@gmail.com;) wikipediaapi/0.8.1"
     print("Getting random page title...")
     try:
-        response = requests.get(f'https://{wiki.language}.wikipedia.org/w/api.php?action=query&list=random&rnnamespace=0&format=json', headers={'User-Agent': user_agent})
+        response = requests.get(f'https://{wiki.language}.wikipedia.org/w/api.php?action=query&list=random&rnnamespace=0&format=json', headers={'User-Agent': user_agent}, timeout=10)
     except requests.exceptions.Timeout:
         print("Timeout error")
         return "Odessa Brigade"
