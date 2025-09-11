@@ -66,9 +66,9 @@ def get_random_page_title(wiki):
         return "Odessa Brigade"
     else:
 #        print(response.text)
-#       print(response.json)
+#        print(response.json)
         data = response.json()
-        print(data['query']['random'][0]['title'])
+#        print(data['query']['random'][0]['title'])
         return data['query']['random'][0]['title']
 
 def save_page_content(wiki, page_title, directory):
