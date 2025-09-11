@@ -2,7 +2,7 @@ import wikipediaapi
 import os
 import requests
 from urllib.parse import urljoin
-MAX_FOLDER_SIZE = 10*1024*1024 #200mb
+MAX_FOLDER_SIZE = 2*1024*1024 #200mb
 language_codes = ["en", "es", "fr", "de", "zh", "pt", "ru", "ja", "ko"]
 more_language_codes = ["af", "als", "am", "an", "ar", "arc", "ary", "as", "ast", "atj", "av", "ay", "az", "ba", "bar", "bat-smg", "bcl", "be", "be-tarask",
     "bg", "bh", "bi", "bjn", "bm", "bn", "bo", "br", "bs", "bpy",
@@ -55,8 +55,9 @@ def init_wiki(lang):
 def get_random_page_title(wiki):
     user_agent = "WikiScraperBot/0.1 (marcingrelak6@gmail.com;) wikipediaapi/0.8.1"
     response = requests.get(f'https://{wiki.language}.wikipedia.org/w/api.php?action=query&list=random&rnnamespace=0&format=json', headers={'User-Agent': user_agent})
-    print(response.text)
+#    print(response.text)
     data = response.json()
+#    print(data['query']['random'][0]['title'])
     return data['query']['random'][0]['title']
 
 def save_page_content(wiki, page_title, directory):
@@ -64,7 +65,7 @@ def save_page_content(wiki, page_title, directory):
     if not page.exists():
         return False
 
-    file_path = os.path.join(directory, f"{page_title.replace(' ', '_')}.txt")
+    file_path = os.path.join(directory, f"{page_title.replace(' ', '_'), page_title.replace('/','_')}.txt")
 
     with open(file_path, 'w', encoding='utf-8') as f:
         f.write(page.text)
@@ -89,5 +90,6 @@ def download_pages(lang):
 def main():
     for l in language_codes:
         download_pages(l)
+
 if __name__ == "__main__":
     main()
