@@ -2,7 +2,7 @@ import wikipediaapi
 import os
 import requests
 
-MAX_FOLDER_SIZE = 3*1024*1024 # in mb
+MAX_FOLDER_SIZE = 8*1024*1024*3 # in MB
 language_codes = ["en", "es", "fr", "de", "zh", "pt", "ru", "ja", "ko"]
 more_language_codes = ["af", "als", "am", "an", "ar", "arc", "ary", "as",
     "ast", "atj", "av", "ay", "az", "ba", "bar", "bat-smg", "bcl", "be", "be-tarask",
@@ -99,7 +99,7 @@ def download_pages(lang):
 
 
 def main():
-    for l in language_codes:
+    for l in more_language_codes:
         download_pages(l)
 
 if __name__ == "__main__":
