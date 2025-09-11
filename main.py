@@ -65,7 +65,7 @@ def save_page_content(wiki, page_title, directory):
     if not page.exists():
         return False
 
-    file_path = os.path.join(directory, f"{page_title.replace(' ', '_'), page_title.replace('/','_')}.txt")
+    file_path = os.path.join(directory, f"{page_title.replace(' ', '_').replace('/','_').replace('?','_').replace('*','_').replace('|','_').replace('\\','_').replace(':','_').replace('<','_').replace('>','_')}.txt")
 
     with open(file_path, 'w', encoding='utf-8') as f:
         f.write(page.text)
