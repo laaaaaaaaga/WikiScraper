@@ -60,12 +60,16 @@ def get_random_page_title(wiki):
     user_agent = "WikiScraperBot/0.5 (marcingrelak6@gmail.com;) wikipediaapi/0.8.1"
 #    print("Getting random page title...")
     try:
-        response = requests.get(f'https://{wiki.language}.wikipedia.org/w/api.php?action=query&list=random&rnnamespace=0&format=json', headers={'User-Agent': user_agent}, timeout=(15,30))
+        response = requests.get(f'https://{wiki.language}.wikipedia.org/w/api.php?action=query&list=random&rnnamespace=0&format=json', headers={'User-Agent': user_agent}, timeout=(15, None))
+        #first timer for request, second for reader, but I've read that it's sometimes bugged and timer for both is started simultaneously leading to errors
     except requests.exceptions.ReadTimeout:
         print("read timeout error")
         return "Odessa Brigade"
     except requests.exceptions.Timeout:
         print("Timeout error")
+        return "Odessa Brigade"
+    except requests.exceptions:
+        print("other exception error")
         return "Odessa Brigade"
     else:
 #        print(response.text)
