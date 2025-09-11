@@ -62,9 +62,9 @@ def get_random_page_title(wiki):
         response = requests.get(f'https://{wiki.language}.wikipedia.org/w/api.php?action=query&list=random&rnnamespace=0&format=json', headers={'User-Agent': user_agent})
     except requests.exceptions.Timeout:
         print("Timeout error")
-        return ""
+        return "Odessa Brigade"
     else:
-        print(response.text)
+#        print(response.text)
 #       print(response.json)
         data = response.json()
         print(data['query']['random'][0]['title'])
