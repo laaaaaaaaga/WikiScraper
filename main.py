@@ -54,15 +54,14 @@ def init_wiki(lang):
     return wikipediaapi.Wikipedia(
     user_agent=AGENT,
     language=lang,
-    timeout = (15, None),
+    timeout = (15, 30),
     extract_format=wikipediaapi.ExtractFormat.WIKI
     )
 
 def get_random_page_title(wiki):
     user_agent = AGENT
-#    print("Getting random page title...")
     try:
-        response = requests.get(f'https://{wiki.language}.wikipedia.org/w/api.php?action=query&list=random&rnnamespace=0&format=json', headers={'User-Agent': user_agent}, timeout=(15, None))
+        response = requests.get(f'https://{wiki.language}.wikipedia.org/w/api.php?action=query&list=random&rnnamespace=0&format=json', headers={'User-Agent': user_agent}, timeout=(15, 15))
         #first timer for request, second for reader, but I've read that it's sometimes bugged and timer for both is started simultaneously leading to errors
     except requests.exceptions.ReadTimeout:
         print("read timeout error")
@@ -94,7 +93,18 @@ def save_page_content(wiki, page_title, directory):
 
 
 def download_pages(lang):
-    wiki = init_wiki(lang)
+    try:
+        wiki = init_wiki(lang)
+    except requests.exceptions.ReadTimeout:
+        print("read timeout error")
+        return "Odessa Brigade"
+    except requests.exceptions.Timeout:
+        print("Timeout error")
+        return "Odessa Brigade"
+    except requests.exceptions:
+        print("other exception error")
+        return "Odessa Brigade"
+
     directory = f"{lang}_data"
     create_folder(directory)
     target_size = MAX_FOLDER_SIZE
@@ -105,7 +115,7 @@ def download_pages(lang):
             print(f"Saved: {page_title}")
         else:
             print(f"Page does not exist: {page_title}")
-
+    return None
 
 def main():
     for l in more_language_codes:
@@ -114,3 +124,4 @@ def main():
 if __name__ == "__main__":
     print("program started")
     main()
+    print("program ended")
