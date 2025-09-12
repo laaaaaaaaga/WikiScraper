@@ -2,7 +2,7 @@ import wikipediaapi
 import os
 import requests
 
-AGENT = "WikiScraperBot/0.9 (marcingrelak6@gmail.com;) wikipediaapi/0.8.1"
+AGENT = "WikiScraperBot/1.0 (marcingrelak6@gmail.com;) wikipediaapi/0.8.1"
 MAX_FOLDER_SIZE = 8*1024*1024*4 # in MB
 language_codes = ["en", "es", "fr", "de", "zh", "pt", "ru", "ja", "ko"]
 more_language_codes = ["af", "als", "am", "an", "ar", "arc", "ary", "as",
@@ -51,19 +51,12 @@ def get_dir_size(directory):
 
 def init_wiki(lang):
     print("Initializing Wikipedia...")
-    try:
-        return wikipediaapi.Wikipedia(
-            user_agent=AGENT,
-            language=lang,
-            timeout=(15, 160),
-            extract_format=wikipediaapi.ExtractFormat.WIKI
-        )
-    except requests.exceptions.ReadTimeout:
-        print("read timeout error")
-    except requests.exceptions.Timeout:
-        print("connection Timeout error")
-    except requests.exceptions:
-        print("other exception")
+    return wikipediaapi.Wikipedia(
+        user_agent=AGENT,
+        language=lang,
+        timeout=(15, 160),
+        extract_format=wikipediaapi.ExtractFormat.WIKI
+    )
 
 
 def get_random_page_title(wiki):
@@ -110,6 +103,10 @@ def download_pages(lang):
                 print(f"Saved: {page_title}")
             else:
                 print(f"Page does not exist: {page_title}")
+    except requests.exceptions.ReadTimeout:
+        print("read timeout error")
+    except requests.exceptions.Timeout:
+        print("Timeout error")
     except:
         print("Something went wrong")
 
