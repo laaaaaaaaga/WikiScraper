@@ -55,25 +55,22 @@ def init_wiki(lang):
         return wikipediaapi.Wikipedia(
             user_agent=AGENT,
             language=lang,
-            timeout=(15, 60),
+            timeout=(15, 160),
             extract_format=wikipediaapi.ExtractFormat.WIKI
         )
     except requests.exceptions.ReadTimeout:
         print("read timeout error")
-        return "Odessa Brigade"
     except requests.exceptions.Timeout:
-        print("Timeout error")
-        return "Odessa Brigade"
+        print("connection Timeout error")
     except requests.exceptions:
-        print("other exception error")
-        return "Odessa Brigade"
+        print("other exception")
 
 
 def get_random_page_title(wiki):
     user_agent = AGENT
     try:
         response = requests.get(f'https://{wiki.language}.wikipedia.org/w/api.php?action=query&list=random&rnnamespace=0&format=json', headers={'User-Agent': user_agent}, timeout=(15, 15))
-        #first timer for request, second for reader, but I've read that it's sometimes bugged and timer for both is started simultaneously leading to errors
+        #first timer for request, second for reader
     except requests.exceptions.ReadTimeout:
         print("read timeout error")
         return "Odessa Brigade"
@@ -84,8 +81,6 @@ def get_random_page_title(wiki):
         print("other exception error")
         return "Odessa Brigade"
     else:
-#        print(response.text)
-#        print(response.json)
         data = response.json()
         print(data['query']['random'][0]['title'])
         return data['query']['random'][0]['title']
@@ -99,24 +94,24 @@ def save_page_content(wiki, page_title, directory):
 
     with open(file_path, 'w', encoding='utf-8') as f:
         f.write(page.text)
-
     return True
 
 
 def download_pages(lang):
+    try:
+        wiki = init_wiki(lang)
+        directory = f"{lang}_data"
+        create_folder(directory)
+        target_size = MAX_FOLDER_SIZE
 
-    wiki = init_wiki(lang)
-    directory = f"{lang}_data"
-    create_folder(directory)
-    target_size = MAX_FOLDER_SIZE
-
-    while get_dir_size(directory) < target_size:
-        page_title = get_random_page_title(wiki)
-        if save_page_content(wiki, page_title, directory):
-            print(f"Saved: {page_title}")
-        else:
-            print(f"Page does not exist: {page_title}")
-
+        while get_dir_size(directory) < target_size:
+            page_title = get_random_page_title(wiki)
+            if save_page_content(wiki, page_title, directory):
+                print(f"Saved: {page_title}")
+            else:
+                print(f"Page does not exist: {page_title}")
+    except:
+        print("Something went wrong")
 
 def main():
     for l in more_language_codes:
