@@ -63,7 +63,7 @@ def get_random_page_title(wiki):
     user_agent = AGENT
     try:
         response = requests.get(f'https://{wiki.language}.wikipedia.org/w/api.php?action=query&list=random&rnnamespace=0&format=json', headers={'User-Agent': user_agent}, timeout=(15, 15))
-        #first timer for request, second for reader
+        #first timer for request, second reader
     except requests.exceptions.ReadTimeout:
         print("read timeout error")
         return "Odessa Brigade"
