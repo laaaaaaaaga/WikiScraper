@@ -3,12 +3,13 @@ import os
 import requests
 
 AGENT = "WikiScraperBot/1.1 (marcingrelak6@gmail.com;) wikipediaapi/0.8.1"
-MAX_FOLDER_SIZE = 3146084 #8*1024*1024*4 # in MB
+MAX_FOLDER_SIZE =  1024*1024*2# 3146084
 language_codes = ["en", "es", "fr", "de", "zh", "pt", "ru", "ja", "ko"]
-more_language_codes = ["af", "als", "am", "an", "ar", "arc", "ary", "as",
-    "ast", "atj", "av", "ay", "az", "ba", "bar", "bat-smg", "bcl", "be", "be-tarask",
-    "bg", "bh", "bi", "bjn", "bm", "bn", "bo", "br", "bs", "bpy",
-    "ca", "cbk-zam", "ce", "ceb", "ch", "chb", "chr", "chy", "co",
+#excluded codes that have less than 1mb or are too long: "arc", "atj", "ay", "bar", "bat-smg", "be-tarask", "bi", "bm", "cbk-zam",
+more_language_codes = ["af", "als", "am", "an", "ar", "ary", "as",
+    "ast", "av", "az", "ba", "bcl", "be",
+    "bg", "bh", "bjn", "bn", "bo", "br", "bs", "bpy",
+    "ca", "ce", "ceb", "ch", "chb", "chr", "chy", "co",
     "crh", "cs", "csb", "cu", "cv", "cy", "da", "de", "diq", "dsb",
     "dv", "dz", "el", "eml", "en", "eo", "es", "et", "eu", "ext",
     "fa", "fi", "frr", "fr", "fur", "fy", "ga", "gd", "gl", "gn",
@@ -83,6 +84,8 @@ def save_page_content(wiki, page_title, directory):
     if not page.exists():
         return False
     file_path = os.path.join(directory, f"{page_title.replace(' ', '_').replace('\'', '').replace('/','_').replace('?','_').replace('*','_').replace('|','_').replace('\\','_').replace(':','_').replace('<','_').replace('>','_')}.txt")
+    if os.path.exists(file_path):
+        print("Page {} already exists".format(page_title))
     with open(file_path, 'w', encoding='utf-8') as f:
         f.write(page.text)
     return True
@@ -93,11 +96,18 @@ def download_pages(lang):
         directory = f"{lang}_data"
         create_folder(directory)
         target_size = MAX_FOLDER_SIZE
+        counter = 0
 
         while get_dir_size(directory) < target_size:
             page_title = get_random_page_title(wiki)
             if save_page_content(wiki, page_title, directory):
-                {}#print(f"Saved: {page_title}")
+                #print(f"Saved: {page_title}")
+                if os.path.exists(f"{directory}/{page_title.replace(' ', '_').replace('\'', '').replace('/','_').replace('?','_').replace('*','_').replace('|','_').replace('\\','_').replace(':','_').replace('<','_').replace('>','_')}.txt"):
+                    counter+=1
+                    print(f'{counter}" repeat in "{lang}')
+                    if counter>2:
+                        counter=0
+                        break
             else:
                 print(f"Page does not exist: {page_title}")
     except requests.exceptions.ReadTimeout:
@@ -106,6 +116,7 @@ def download_pages(lang):
         print("Timeout error")
     except:
         print("Something went wrong")
+#maybe let's add exception with counter that if file exists already skip it, and if it happens 3 times in a row then it means we collected all. Price I pay for randomising instead of scraping links like i wanted earlier damn
 
 def main():
     for l in more_language_codes:
