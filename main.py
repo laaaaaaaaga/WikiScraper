@@ -2,8 +2,8 @@ import wikipediaapi
 import os
 import requests
 
-AGENT = "WikiScraperBot/1.0 (marcingrelak6@gmail.com;) wikipediaapi/0.8.1"
-MAX_FOLDER_SIZE = 8*1024*1024*4 # in MB
+AGENT = "WikiScraperBot/1.1 (marcingrelak6@gmail.com;) wikipediaapi/0.8.1"
+MAX_FOLDER_SIZE = 3146084 #8*1024*1024*4 # in MB
 language_codes = ["en", "es", "fr", "de", "zh", "pt", "ru", "ja", "ko"]
 more_language_codes = ["af", "als", "am", "an", "ar", "arc", "ary", "as",
     "ast", "atj", "av", "ay", "az", "ba", "bar", "bat-smg", "bcl", "be", "be-tarask",
@@ -50,7 +50,7 @@ def get_dir_size(directory):
 
 
 def init_wiki(lang):
-    print("Initializing Wikipedia...")
+    print("Initializing Wikipedia for language {}".format(lang))
     return wikipediaapi.Wikipedia(
         user_agent=AGENT,
         language=lang,
@@ -75,20 +75,17 @@ def get_random_page_title(wiki):
         return "Odessa Brigade"
     else:
         data = response.json()
-        print(data['query']['random'][0]['title'])
+        #print(data['query']['random'][0]['title'])
         return data['query']['random'][0]['title']
 
 def save_page_content(wiki, page_title, directory):
     page = wiki.page(page_title)
     if not page.exists():
         return False
-
     file_path = os.path.join(directory, f"{page_title.replace(' ', '_').replace('\'', '').replace('/','_').replace('?','_').replace('*','_').replace('|','_').replace('\\','_').replace(':','_').replace('<','_').replace('>','_')}.txt")
-
     with open(file_path, 'w', encoding='utf-8') as f:
         f.write(page.text)
     return True
-
 
 def download_pages(lang):
     try:
@@ -100,7 +97,7 @@ def download_pages(lang):
         while get_dir_size(directory) < target_size:
             page_title = get_random_page_title(wiki)
             if save_page_content(wiki, page_title, directory):
-                print(f"Saved: {page_title}")
+                {}#print(f"Saved: {page_title}")
             else:
                 print(f"Page does not exist: {page_title}")
     except requests.exceptions.ReadTimeout:
